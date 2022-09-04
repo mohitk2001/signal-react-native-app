@@ -1,17 +1,16 @@
 import { StyleSheet } from "react-native";
-
 const styles=StyleSheet.create({
-    Login:{
+    Signup_container:{
+        width:"100%",
         flex:1,
         alignItems:"center",
-        justifyContent:"center",
-        width:"100%"
+        justifyContent:"center"
     },
-    Login_Buttons:{
-        marginTop:5,
-        width:"60%"
+    Input_container:{
+        width:"60%",
+        marginTop:20
     },
-    App_inputs:{
+    Create_Button:{
         width:"60%"
     }
 })
